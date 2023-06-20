@@ -10,17 +10,18 @@ import {
   MDBNavbarLink,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+import '../pages/static/css/style.css';
+import Logo from '../pages/static/images/logo.jpg';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 
-export default function App() {
+export default function NavBar() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'></MDBNavbarBrand>
-
+        <MDBNavbarBrand href='/'><img className= 'logo' src={ Logo } alt="" /></MDBNavbarBrand>
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
           aria-expanded='false'
@@ -40,16 +41,10 @@ export default function App() {
               <MDBNavbarLink href='/about'>About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-                <MDBNavbarLink href='/work'>Our Work</MDBNavbarLink>
+                <MDBNavbarLink href='/services'>Services</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='/gallery'>Gallery</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='/donate'>Donate</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

@@ -1,0 +1,144 @@
+.greeting {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.explanation {
+    font-size: 28px;
+    text-align: center;
+}
+
+.error {
+    font-size: 300px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.home {
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    transition: 0.3s;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #3c3c3c, #070178);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover {
+    background-image: linear-gradient(to left, #2a2a2a, #070178);
+    opacity: 0.7;
+}
+
+.container {
+    text-align: center;
+}
+
+.center {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+  
+  .bouncing-text {
+    position: relative;
+    display: flex;
+    font-size: 300px;
+    font-weight: 900;
+}
+
+.n,
+.c,
+.e {
+    position: relative;
+    color: #2a2a2a;
+    text-shadow: 0 3px #070178, 0 5px #070178, 0 7px #070178;
+    text-align: center;
+}
+
+.n {
+    animation: bounce 1s ease infinite .3s;
+    -webkit-animation: bounce 1s ease infinite .3s;
+}
+
+.c {
+    animation: bounce 1s ease infinite .4s;
+    -webkit-animation: bounce 1s ease infinite .4s;
+}
+
+.e {
+    animation: bounce 1s ease infinite .5s;
+    -webkit-animation: bounce 1s ease infinite .5s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-55px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    58% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    65% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-55px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    58% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    65% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
