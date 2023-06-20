@@ -2,9 +2,11 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import './static/css/style.css';
 import NavBar from '../components/NavBar.js';
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
     const form = useRef()
+    const navigate = useNavigate();
     const sendEmail = (e) => {
         e.preventDefault();
 
