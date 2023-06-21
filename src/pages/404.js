@@ -1,5 +1,6 @@
 import React from "react";
 import './static/css/404.css';
+import { Link } from "react-router-dom";
 
 function PageNotFound() {
     return (
@@ -13,8 +14,8 @@ function PageNotFound() {
                     <p className="e">4</p>
                 </div>
             </div>
-            <div className="container">
-                <a className="errorlink" href="/"><button className="home">Go Home!</button></a>
+            <div className="container1">
+                <Link className="errorlink" to="/"><button className="home">Go Home!</button></Link>
             </div>
         </div>
     )

@@ -24,35 +24,30 @@
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, #3c3c3c, #070178);
-}
-
-a {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: white;
 }
 
-a:hover {
-    text-decoration: none;
-    color: white;
-}
 
 .home:hover {
     background-image: linear-gradient(to left, #2a2a2a, #070178);
     opacity: 0.7;
+    text-decoration: none;
+    color: white;
 }
 
-.container {
+.container1 {
     text-align: center;
 }
 
 .center {
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     display: flex;
 }
-  
-  .bouncing-text {
+
+.bouncing-text {
     position: relative;
     display: flex;
     font-size: 300px;
