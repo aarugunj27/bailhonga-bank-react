@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 
 function Success() {
     return (
@@ -8,4 +8,4 @@ function Success() {
     )
 }
 
-export default Success;
+export default Success;*/
