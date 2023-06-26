@@ -13,10 +13,10 @@ function App() {
       <Routes>
         <Route exact path='*' element= { <PageNotFound/> } />
         <Route exact path="/" element={ <Home/> } />
-        <Route exact path="/about" element={ <About/> } />
-        <Route exact path="/services" element={ <Services/> } />
-        <Route exact path="/contact" element={ <Contact/> } />
-        <Route exact path="/success" element={ <Success/> } />
+        <Route exact path="/about.js" element={ <About/> } />
+        <Route exact path="/services.js" element={ <Services/> } />
+        <Route exact path="/contact.js" element={ <Contact/> } />
+        <Route exact path="/success.js" element={ <Success/> } />
       </Routes>
     </div>
   );

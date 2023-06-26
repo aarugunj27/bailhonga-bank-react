@@ -38,13 +38,13 @@ export default function NavBar() {
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='/about'>About</MDBNavbarLink>
+              <MDBNavbarLink href='/about.js'>About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-                <MDBNavbarLink href='/services'>Services</MDBNavbarLink>
+                <MDBNavbarLink href='/services.js'>Services</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/contact'>Contact</MDBNavbarLink>
+              <MDBNavbarLink href='/contact.js'>Contact</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
