@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 function Success() {
     return (
         <div>
+            <div className='bg-image'></div>
             <div className='box'>
-                <div className='container'>
+                <div className='container-1'>
                     <Check2Circle color="green" size={100}/>
                     <h1>Success</h1>
                     <h5>We have recieved you email and we will contact you back soon!</h5>

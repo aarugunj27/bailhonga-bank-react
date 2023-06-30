@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import './static/css/style.css';
 import NavBar from '../components/NavBar.js';
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/footer";
 
 const Contact = () => {
     const form = useRef()
@@ -29,6 +30,7 @@ const Contact = () => {
                 </form>
             </center>
             </div>
+            <Footer />
         </div>
     )
 }
