@@ -4,7 +4,6 @@ import './static/css/style.css';
 import NavBar from '../components/NavBar.js';
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/footer";
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 const Contact = () => {
     const form = useRef()
