@@ -4,6 +4,7 @@ import './static/css/style.css';
 import NavBar from '../components/NavBar.js';
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/footer";
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 const Contact = () => {
     const form = useRef()
@@ -30,6 +31,11 @@ const Contact = () => {
                 </form>
             </center>
             </div>
+            <div className="google-map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d98312.13780160029!2d-75.74434732848013!3d39.64399094183802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSubway!5e0!3m2!1sen!2sus!4v1689015457918!5m2!1sen!2sus" allowfullscreen="" loading="lazy" className="google-map" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br></br>
+            <br></br>
             <Footer />
         </div>
     )

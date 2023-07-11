@@ -186,3 +186,26 @@ form {
   align-items: center !important;
   justify-content: center !important;
 }
+
+.google-map {
+  transform: scale(1) !important;
+  margin-top: 4% !important;
+  width: 50% !important;
+  height: 600px !important; 
+  border: 1px solid black !important;
+  border-radius: 20px;
+  margin-left: 25%;
+  transition: transform 0.5s !important;
+}
+
+.google-map:hover {
+  transform: scale(1.10) !important;
+}
+
+.google-map-container {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
