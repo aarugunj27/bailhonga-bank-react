@@ -195,11 +195,6 @@ form {
   border: 1px solid black !important;
   border-radius: 20px;
   margin-left: 25%;
-  transition: transform 0.5s !important;
-}
-
-.google-map:hover {
-  transform: scale(1.10) !important;
 }
 
 .google-map-container {
